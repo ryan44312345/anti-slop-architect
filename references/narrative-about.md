@@ -8,6 +8,8 @@
 - **Fonte** — [Gribble](https://gribble.framer.website/)
 - **Nichos indicados** — hamburguerias, bares e marcas gastronômicas autorais
 
+**Evidência histórica** — Lote 2. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
+
 ##### Requisitos de Mídia e Copy
 
 Três fotos de momentos distintos, com recortes retrato e legendas de até quatro palavras. Manifesto de cerca de 25 palavras e recibo com linhas sintéticas.
@@ -18,11 +20,11 @@ Três fotos de momentos distintos, com recortes retrato e legendas de até quatr
 2. Comando de avanço e seletores.
 3. H2, módulo de recibo, parágrafo, link de história e botão de reimpressão.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Pilha primeiro e narrativa abaixo. Margens de 20 px e palco de 352 × 394 px (0,89:1). Molduras claras com sobreposição e fitas em fundo creme. A seção mediu pelo menos 967 px e ultrapassa 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 O grid de 12 trilhas cria duas metades de 630 px, com vão de 24 px e margens de 32 px. Palco fotográfico de 433 × 485 px. Parágrafo com 412 px. Na captura, o recibo expandido mostrou tipografia monoespaçada e linhas de papel térmico. O CSS da página tem faixa em 810 px.
 
@@ -39,6 +41,10 @@ O grid de 12 trilhas cria duas metades de 630 px, com vão de 24 px e margens de
 
 - Escolher fotos que sugiram situações distintas. O recibo deve acrescentar informação ou voz, sem repetir o parágrafo.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Colagem.** A peça em forma de recibo mantém a leitura contínua; as fotos dão contexto sem carregar informações essenciais.
+
 #### L3-NARR-01 — Painel de ofício com números em círculos
 
 - **Categoria destino** — `narrative-about.md`
@@ -46,6 +52,8 @@ O grid de 12 trilhas cria duas metades de 630 px, com vão de 24 px e margens de
 - **Nome do padrão** — Painel de ofício com números em círculos
 - **Fonte** — [Ruota](https://ruota-template.framer.website/)
 - **Nichos indicados** — cantinas artesanais, padarias e torrefações
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -57,11 +65,11 @@ Dispensa fotografia. Rótulo de duas ou três palavras, título de até duas lin
 2. Parágrafo de contexto.
 3. Três pares de valor e legenda na ordem de leitura.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Painel de 429 px com raio de 28 px e conteúdo de 389 px. Título e parágrafo empilhados. A faixa dos indicadores passa para uma coluna e mede 752 px. Título, parágrafo e os três indicadores excedem a dobra local de 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Painel vermelho de 1300 × 860 px com raio de 40 px e conteúdo de 1204 px. Blocos superiores de 700 e 440 px, com vão de 64 px. Os três círculos se distribuem em linha; as caixas podem variar durante a entrada. O CSS da página declara faixas em 810 e 1200 px.
 
@@ -78,6 +86,10 @@ Painel vermelho de 1300 × 860 px com raio de 40 px e conteúdo de 1204 px. Bloc
 
 - Escolher dados que informem algo concreto sobre produção e atendimento. Reservar área suficiente para cada legenda sem sobrepor os valores.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Manifesto com dados.** Use círculos apenas para números que revelem o ofício; informações extensas pedem outro suporte.
+
 #### L3-NARR-02 — Retratos da equipe com ficha de função
 
 - **Categoria destino** — `narrative-about.md`
@@ -85,6 +97,8 @@ Painel vermelho de 1300 × 860 px com raio de 40 px e conteúdo de 1204 px. Bloc
 - **Nome do padrão** — Retratos da equipe com ficha de função
 - **Fonte** — [Foodee](https://foodee.framer.website/)
 - **Nichos indicados** — restaurantes autorais, confeitaria e hospitalidade
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -96,11 +110,11 @@ Quatro retratos verticais, nome e função em uma linha sempre que possível e d
 2. Lista de pessoas.
 3. Por pessoa: mídia com descrição associada, nome e função, depois elemento de ação.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Coluna única de 401 px com margem de 24 px. Módulo por pessoa de 459 px, retrato de 300 × 380 px (0,79:1). O primeiro cartão cabe isoladamente em 812 px, mas cabeçalho mais cartão e espaçamentos ultrapassam a dobra local a partir do topo da seção.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Quatro retratos na mesma linha dentro de 1152 px. Área de nome com cerca de 270 px por cartão. Retratos de 300 × 380 px. A seção usa sticky no desktop e relativa na variante estreita. CSS da página inclui 810 e 1200 px; limiar específico não isolado.
 
@@ -117,6 +131,10 @@ Quatro retratos na mesma linha dentro de 1152 px. Área de nome com cerca de 270
 
 - Dirigir os retratos em escala e enquadramento coerentes. Manter o nome e a função legíveis mesmo sem interagir.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Retratos sequenciais.** Associe cada pessoa à função com consistência de enquadramento; garanta acesso aos perfis em fluxo.
+
 #### L5-NARR-01 — Manifesto imobiliário com quatro princípios numerados
 
 - **Categoria destino** — `narrative-about.md`
@@ -124,6 +142,8 @@ Quatro retratos na mesma linha dentro de 1152 px. Área de nome com cerca de 270
 - **Nome do padrão** — Manifesto imobiliário com quatro princípios numerados
 - **Fonte** — [Caldren](https://caldren.framer.website/)
 - **Nichos indicados** — imobiliárias autorais, arquitetura e serviços premium
+
+**Evidência histórica** — Lote 5. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1363 = 1363 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -135,11 +155,11 @@ Uma foto arquitetônica. Título de até três linhas, quatro princípios com no
 2. Lista de quatro princípios.
 3. Em cada item: número, título e descrição.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 409 px, margem de 20 px. Foto de 409 × 320 px (1,28:1). Introdução de cerca de 474 px seguida por uma lista de 664 px. A seção excede 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Introdução de 520 px e lista de 619 px, cerca de 46/54, com vão de 96 px. Foto de 520 × 560 px. As quatro linhas usam números em faixa separada à esquerda dos textos.
 
@@ -156,6 +176,10 @@ Introdução de 520 px e lista de 619 px, cerca de 46/54, com vão de 96 px. Fot
 
 - Descrever critérios reais de seleção, apresentação e atendimento. Preparar a foto para os recortes vertical e horizontal.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Manifesto enumerado.** A numeração organiza princípios distintos; frases repetidas enfraquecem a sequência.
+
 #### L5-NARR-02 — Equipe em grade com título ocupando a primeira célula
 
 - **Categoria destino** — `narrative-about.md`
@@ -163,6 +187,8 @@ Introdução de 520 px e lista de 619 px, cerca de 46/54, com vão de 96 px. Fot
 - **Nome do padrão** — Equipe em grade com título ocupando a primeira célula
 - **Fonte** — [Advocacy](https://advocacy-template.framer.website/)
 - **Nichos indicados** — escritórios, consultorias e equipes institucionais
+
+**Evidência histórica** — Lote 5. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -174,11 +200,11 @@ Retratos com foco central para recorte quadrado e horizontal. Um nome e um cargo
 2. Cartões de pessoas em ordem de leitura.
 3. Em cada cartão: retrato, nome e cargo.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Grade de uma coluna útil de 409 px e margem de 20 px. Retrato de 369 × 260 px (1,42:1), cartão de 386 px de altura. O título precede o primeiro retrato. Um perfil cabe em 812 px e o conjunto requer rolagem.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Três colunas de cerca de 383 px com vão de 20 px. Título ocupa a primeira célula, seguido de dois perfis na primeira linha. Retratos de 260 × 260 px dentro dos cartões de 393 px de altura.
 
@@ -194,3 +220,7 @@ Três colunas de cerca de 383 px com vão de 20 px. Título ocupa a primeira cé
 ##### Regras Anti-Slop específicas daquela seção
 
 - Alinhar escala e altura dos rostos. Usar a célula inicial para introduzir a equipe com texto curto.
+
+##### Direção de arte e aplicação
+
+[INFERIDO] **Grade com título integrado.** A primeira célula cria a entrada de leitura; prefira lista para equipes pequenas sem fotografias comparáveis.
