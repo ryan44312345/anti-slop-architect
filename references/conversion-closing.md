@@ -8,6 +8,8 @@
 - **Fonte** — [Alter](https://alter.framer.photos/)
 - **Nichos indicados** — designers independentes, consultorias criativas, pequenos estúdios
 
+**Evidência histórica** — Lote 1. Desktop 1348 × 936 px CSS; estreito 449 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
+
 ##### Requisitos de Mídia e Copy
 
 Pode funcionar com palco escuro, sem depender de foto. Usar convite curto, email e links sociais.
@@ -19,11 +21,11 @@ Pode funcionar com palco escuro, sem depender de foto. Usar convite curto, email
 3. Email clicável.
 4. Links sociais.
 
-##### Comportamento Mobile-First observado de fato (449 px)
+##### Comportamento em largura estreita
 
 Palco escuro de 449 × 640 px. A faixa de contato começa a cerca de 435 px do início da seção, ocupa 409 px e tem margem de 20 px. Email em Switzer a 22 px. Os quatro links sociais aparecem depois, em linha, com caixas de 44 px de altura e fonte monoespaçada de 11 px. A área do link de fundo mede a seção inteira no DOM.
 
-##### Expansão Desktop (1024px+) observada de fato
+##### Comportamento em desktop
 
 A 1348 px, palco de 936 px de altura. O convite e o email estão próximos ao canto inferior esquerdo, com margem de 40 px e email de cerca de 35 px com sublinhado laranja. Redes no canto oposto. O conteúdo de contato continua legível mesmo quando a região central fotografada aparece vazia. O título semântico de contato tem caixa de 1 × 1 px.
 
@@ -42,6 +44,10 @@ A 1348 px, palco de 936 px de altura. O convite e o email estão próximos ao ca
 - Usar um endereço real no projeto final e manter as redes como ações secundárias.
 - Garantir que o link amplo do palco preserve acesso por mouse e teclado aos links de email e redes.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Fechamento tipográfico.** Contato direto ganha peso quando é o objetivo final; o endereço deve poder ser copiado.
+
 #### L1-CONV-02 — Comparação de combos com ação por opção
 
 - **Categoria destino** — `conversion-closing.md`
@@ -49,6 +55,8 @@ A 1348 px, palco de 936 px de altura. O convite e o email estão próximos ao ca
 - **Nome do padrão** — Comparação de combos com ação por opção
 - **Fonte** — [Ligatra](https://only-instance-526558.framer.app/)
 - **Nichos indicados** — hamburguerias, delivery, cardápios com combos
+
+**Evidência histórica** — Lote 1. Desktop 1348 × 936 px CSS; estreito 449 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -59,11 +67,11 @@ Recortes de produto em escala comparável. Usar etiqueta breve, nome, descriçã
 1. Título de escolha.
 2. Lista de combos. Cada item contém imagem, etiqueta curta, nome, descrição, preço, ação de pedido e lista de itens incluídos.
 
-##### Comportamento Mobile-First observado de fato (449 px)
+##### Comportamento em largura estreita
 
 Três cartões em uma coluna de 409 px com margem de 20 px. Título Bowlby One de 34 px em duas linhas. Cada imagem mede 365 × 200 px, aproximadamente 1,83:1. O CTA mede cerca de 180 × 52 px. Os cartões usam planos largos em marrom muito escuro, com cantos arredondados e foto recortada do produto.
 
-##### Expansão Desktop (1024px+) observada de fato
+##### Comportamento em desktop
 
 A 1348 px, três colunas iguais de cerca de 380 px dentro de uma faixa de 1180 px, com vãos de cerca de 20 px. Título de 52 px. Imagens de 324 × 230 px, cerca de 1,41:1. Chamadas amarelas de 188 × 52 px. Preços e botões alinhados entre as três opções na amostra desktop.
 
@@ -82,6 +90,10 @@ A 1348 px, três colunas iguais de cerca de 380 px dentro de uma faixa de 1180 p
 - Aplicar a mesma ordem de informações em todos os cartões para facilitar a comparação de preço e composição.
 - Usar rótulos curtos que indiquem uma diferença real e trocar o destino demonstrativo pelo pedido da opção correspondente.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Comparação de opções.** Mostre diferenças reais entre combos e deixe a ação junto da opção escolhida.
+
 #### L2-CONV-01 — Unidades com pedido e rota por loja
 
 - **Categoria destino** — `conversion-closing.md`
@@ -89,6 +101,8 @@ A 1348 px, três colunas iguais de cerca de 380 px dentro de uma faixa de 1180 p
 - **Nome do padrão** — Unidades com pedido e rota por loja
 - **Fonte** — [Ligatra](https://only-instance-526558.framer.app/)
 - **Nichos indicados** — redes de restaurantes, cafeterias e lojas físicas
+
+**Evidência histórica** — Lote 2. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -100,11 +114,11 @@ Uma foto por unidade, endereço completo, horários em linhas separadas e dois r
 2. Lista de unidades.
 3. Em cada unidade: foto, nome, endereço, horários e ações de pedido e rota.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 409 px com margem de 20 px e raio de 22 px. Imagens de aproximadamente 409 × 200 px (2,05:1). Cartões de 412–449 px cabem isoladamente em 812 px. A lista completa excede a dobra.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Três colunas de 380 px com vão de 20 px, superfície clara e cartões com raio de 28 px. Imagens de 380 × 240 px (1,58:1). A 1090 px já havia uma coluna, compatível com a faixa CSS de 1200 px.
 
@@ -121,6 +135,10 @@ Três colunas de 380 px com vão de 20 px, superfície clara e cartões com raio
 
 - Permitir alturas diferentes conforme os horários. Direcionar pedido e rota à unidade correta.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Ações por unidade.** A escolha da loja determina rota e pedido; ambos os destinos devem identificar a mesma unidade.
+
 #### L3-CONV-01 — Reserva com campos em pares e fundo fotográfico
 
 - **Categoria destino** — `conversion-closing.md`
@@ -128,6 +146,8 @@ Três colunas de 380 px com vão de 20 px, superfície clara e cartões com raio
 - **Nome do padrão** — Reserva com campos em pares e fundo fotográfico
 - **Fonte** — [Slice Town](https://slice-town-wbs.framer.website/)
 - **Nichos indicados** — pizzarias, bistrôs e restaurantes com serviço de mesa
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -140,11 +160,11 @@ Uma textura ou fotos de fundo podem ser usadas se não competirem com os campos.
 3. Pedidos especiais e botão de reserva.
 4. Camada decorativa de fundo no DOM.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Formulário de 417 × 809 px, recuo de 16 px e raio de 10 px. Seis campos em uma coluna, textarea e botão. O cartão sozinho ocupa quase 812 px; somado ao título, não cabe integralmente na dobra local.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Formulário de 690 × 640 px, raio de 16 px, campos em três pares. Observações ocupam a faixa inferior. Superfície creme contrastada com campos claros e contorno escuro. CSS de página em 810 e 1200 px; limiar do formulário não isolado.
 
@@ -161,6 +181,10 @@ Formulário de 690 × 640 px, raio de 16 px, campos em três pares. Observaçõe
 
 - Manter rótulos visíveis fora dos campos. Proteger o contraste do formulário independentemente do conteúdo do fundo.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Formulário sobre mídia.** Preserve superfície legível para campos; valide foco, mensagens e teclado móvel.
+
 #### L4-CONV-01 — Sala privativa com palco fotográfico e ficha de capacidade
 
 - **Categoria destino** — `conversion-closing.md`
@@ -168,6 +192,8 @@ Formulário de 690 × 640 px, raio de 16 px, campos em três pares. Observaçõe
 - **Nome do padrão** — Sala privativa com palco fotográfico e ficha de capacidade
 - **Fonte** — [Braise](https://braise-dining.framer.website/)
 - **Nichos indicados** — eventos privados, restaurantes e espaços de locação
+
+**Evidência histórica** — Lote 4. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -180,11 +206,11 @@ Uma cena horizontal da sala com zona livre para o texto. Título curto, descriç
 3. Link de consulta.
 4. Camadas de imagem do palco.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Palco sticky de largura total com texto em caixa de cerca de 359 px e parâmetros em linhas. Imagens seguem a altura do palco. O bloco interno mediu cerca de 391 px, mas o encaixe confortável em 812 px depende do estado e da altura do palco.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Trecho de 1732 px com palco sticky observado a 1348 × 515 px. Texto sobreposto em bloco de 712 px. Três métricas em grupos de cerca de 236 px. Camadas fotográficas ocupam toda a largura.
 
@@ -201,6 +227,10 @@ Trecho de 1732 px com palco sticky observado a 1348 × 515 px. Texto sobreposto 
 
 - Garantir contraste mesmo sobre a área mais clara da sala. Informar qual capacidade se refere a cada modalidade de evento.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Palco de reserva.** Capacidade e condições precisam ficar acessíveis antes da ação; o palco é dispensável sem mídia adequada.
+
 #### L5-CONV-01 — Comparação de dois pacotes por visita
 
 - **Categoria destino** — `conversion-closing.md`
@@ -208,6 +238,8 @@ Trecho de 1732 px com palco sticky observado a 1348 × 515 px. Texto sobreposto 
 - **Nome do padrão** — Comparação de dois pacotes por visita
 - **Fonte** — [Dental Point](https://dental-point-clinic.framer.website/)
 - **Nichos indicados** — clínicas, estúdios e serviços com pacotes
+
+**Evidência histórica** — Lote 5. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -219,11 +251,11 @@ Nome e público de cada pacote, preço com unidade, cerca de quatro inclusões e
 2. Dois planos.
 3. Em cada plano: nome, perfil indicado, preço e unidade, lista de itens e CTA.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Os planos se empilham em faixa de 417 px. O primeiro cartão mede 385 × 516 px, com área interna de 353 px e CTA de 48 px de altura. Um cartão cabe isoladamente em 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Dois cartões de cerca de 618 × 622 px. Superfície creme no primeiro e preto no segundo. Conteúdo interno de 538 px e botões de largura própria.
 
@@ -240,6 +272,10 @@ Dois cartões de cerca de 618 × 622 px. Superfície creme no primeiro e preto n
 
 - Explicitar o que está incluído e se o preço é por visita. Usar contraste para hierarquia, com leitura equivalente nos dois planos.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Comparação de dois planos.** Estruture benefícios na mesma ordem; preserve condição, periodicidade e preço juntos.
+
 #### L5-CONV-02 — Três níveis de consultoria com plano central destacado
 
 - **Categoria destino** — `conversion-closing.md`
@@ -247,6 +283,8 @@ Dois cartões de cerca de 618 × 622 px. Superfície creme no primeiro e preto n
 - **Nome do padrão** — Três níveis de consultoria com plano central destacado
 - **Fonte** — [Koddam](https://koddam.framer.website/)
 - **Nichos indicados** — consultorias, serviços recorrentes e SaaS
+
+**Evidência histórica** — Lote 5. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -258,11 +296,11 @@ Nome, público-alvo em uma frase, valor com recorrência, cerca de quatro inclus
 2. Grade de planos.
 3. Em cada plano: nome, descrição, preço, inclusões e ação.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 419 px, margem de 15 px. Cada cartão mede cerca de 467 px de altura e tem CTA de 379 × 40 px. Cabe o título e um plano em aproximadamente 812 px, conforme os espaçamentos medidos.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Três cartões de 416 × 481 px com vão de 20 px. Cartão central verde-claro e dois brancos. CTAs pretos de 376 × 40 px alinhados na base.
 
@@ -279,6 +317,10 @@ Três cartões de 416 × 481 px com vão de 20 px. Cartão central verde-claro e
 
 - Usar o destaque para justificar a escolha central com uma diferença concreta de escopo. Alinhar preço e botão mesmo quando o texto variar.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Comparação de três planos.** Destaque o plano central apenas quando houver recomendação real; mantenha equivalência na comparação.
+
 #### L6-CONV-01 — Agendamento domiciliar com endereço na sequência de reserva
 
 - **Categoria destino** — `conversion-closing.md`
@@ -286,6 +328,8 @@ Três cartões de 416 × 481 px com vão de 20 px. Cartão central verde-claro e
 - **Nome do padrão** — Agendamento domiciliar com endereço na sequência de reserva
 - **Fonte** — [HomeSalon TNC](https://homesalon-tnc.framer.website/)
 - **Nichos indicados** — salões móveis, técnicos e serviços domiciliares
+
+**Evidência histórica** — Lote 6. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -298,11 +342,11 @@ Rótulos claros para serviço, data, hora, local e contato. Uma introdução cur
 3. Nome, email, telefone e mensagem.
 4. Botão de confirmação.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 417 px; campos internos de cerca de 405 px. Botão de 417 × 49 px. Bloco de aproximadamente 831 px, excedendo 812 px. Campos divididos por linhas finas.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Seletor e campos iniciais em pares de cerca de 399 px. Telefone e mensagem em largura total. Botão de 860 × 73 px. Fundo preto e rótulos claros.
 
@@ -318,3 +362,7 @@ Seletor e campos iniciais em pares de cerca de 399 px. Telefone e mensagem em la
 ##### Regras Anti-Slop específicas daquela seção
 
 - As opções do seletor precisam corresponder ao rótulo. A amostra usava cidades em um campo de tipo de serviço e texto provisório na introdução.
+
+##### Direção de arte e aplicação
+
+[INFERIDO] **Reserva sequencial.** Solicite endereço na etapa em que ele afeta disponibilidade; preserve os dados ao voltar.

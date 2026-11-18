@@ -8,6 +8,8 @@
 - **Fonte** — [FineDine /menu](https://finedine-template.framer.website/menu)
 - **Nichos indicados** — fine dining, restaurantes omakase e cardápios sazonais
 
+**Evidência histórica** — Lote 2. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
+
 ##### Requisitos de Mídia e Copy
 
 Foto dedicada por prato, nome e preço com leitura próxima, descrição de 8–18 palavras e ingredientes em lista breve.
@@ -19,11 +21,11 @@ Foto dedicada por prato, nome e preço com leitura próxima, descrição de 8–
 3. Categorias com título, subtítulo e lista de pratos.
 4. Em cada registro: nome, nome original, preço, descrição e ingredientes, com foto antes do conteúdo na variante empilhada e selo opcional.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Índice horizontal no início da coluna. Registros em área de 409 px e margens de 20 px. A coluna lateral tem altura zero e a mídia do prato passa a ocupar 409 × 320 px (1,28:1). Registros de 512–533 px cabem isoladamente em 812 px. Fundo escuro e separadores finos, sem cartões arredondados.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Coluna sticky de 567 × 936 px, lista de 661 px e vão de 72 px. Proporção aproximada 46/54 sem o vão. Linhas de cerca de 119 px com preço à direita. CSS tem faixas em 810 e 1200 px. O limiar específico da supressão do palco lateral não foi isolado.
 
@@ -40,6 +42,10 @@ Coluna sticky de 567 × 936 px, lista de 661 px e vão de 72 px. Proporção apr
 
 - Reservar espaço após o salto para o título. Manter preço próximo ao nome e associar a foto ao prato correto.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Índice de cardápio.** Categorias orientam a exploração; a imagem lateral é contexto e pode ceder espaço à lista.
+
 #### L2-SPEC-02 — Filtro de alergênicos por grupos de pratos
 
 - **Categoria destino** — `special-modules.md`
@@ -47,6 +53,8 @@ Coluna sticky de 567 × 936 px, lista de 661 px e vão de 72 px. Proporção apr
 - **Nome do padrão** — Filtro de alergênicos por grupos de pratos
 - **Fonte** — [FineDine /menu](https://finedine-template.framer.website/menu)
 - **Nichos indicados** — restaurantes com carta extensa, menus sazonais e hospitalidade
+
+**Evidência histórica** — Lote 2. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -59,11 +67,11 @@ Dispensa mídia. Use rótulos curtos, orientação em uma frase, nome do prato e
 3. Grupos por categoria com nome do prato e marcações em cada linha.
 4. Nota final.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 409 px e margens de 20 px. Opções de 28 px de altura distribuídas em três linhas. Caixa de filtros de cerca de 265 px. Título, filtros e primeiro grupo somam cerca de 737 px antes dos vãos. Seção com cerca de 1937 px, superfície escura e divisórias finas.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Área de 1252 px com três trilhas de aproximadamente 391 px. Duas trilhas a 1090 e 909 px, uma a 779 px. Resultados coerentes com as faixas CSS em 1200 e 810 px. Caixa de filtros de cerca de 190 px no desktop.
 
@@ -80,6 +88,10 @@ Uma coluna de 409 px e margens de 20 px. Opções de 28 px de altura distribuíd
 
 - Atualizar as marcações sempre que o preparo mudar. Manter a consulta à equipe explícita ao lado dos resultados.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Filtro de cardápio.** Restrições precisam de dados validados e rótulos claros; explique resultados sem prometer segurança não comprovada.
+
 #### L3-SPEC-01 — Cardápio diário em cartões sticky sobrepostos
 
 - **Categoria destino** — `special-modules.md`
@@ -87,6 +99,8 @@ Uma coluna de 409 px e margens de 20 px. Opções de 28 px de altura distribuíd
 - **Nome do padrão** — Cardápio diário em cartões sticky sobrepostos
 - **Fonte** — [Ruota](https://ruota-template.framer.website/)
 - **Nichos indicados** — cantinas, menus do dia e restaurantes sazonais
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -98,11 +112,11 @@ Uma foto quadrada por prato com corte compatível com máscara circular. Usar no
 2. Lista de cartões em ordem.
 3. Em cada cartão: foto e bloco de horário, nome, descrição e preço.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 409 px com recuo lateral de 20 px. Foto quadrada de cerca de 390 px em máscara circular. Cartões de 606–642 px, com superfícies creme e vermelho e contornos finos. Cada cartão cabe isoladamente em 812 px; a pilha completa exige rolagem.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Cartões de 1252 × 560 px com intervalos de 28 px. Foto e texto ficam lado a lado. A imagem quadrada medida no DOM era 624 × 624 px, com recorte interno na composição visível. CSS de página em 810 e 1200 px; limiar exato da troca de orientação não isolado.
 
@@ -119,6 +133,10 @@ Cartões de 1252 × 560 px com intervalos de 28 px. Foto e texto ficam lado a la
 
 - Manter os dados essenciais juntos antes da sobreposição. Preparar fotos com enquadramento e escalas comparáveis.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Cartões sobrepostos.** O empilhamento dá ordem ao menu curto; preserve o acesso aos itens em fluxo simples.
+
 #### L3-SPEC-02 — Lista de pizzas com preços alinhados por tamanho
 
 - **Categoria destino** — `special-modules.md`
@@ -126,6 +144,8 @@ Cartões de 1252 × 560 px com intervalos de 28 px. Foto e texto ficam lado a la
 - **Nome do padrão** — Lista de pizzas com preços alinhados por tamanho
 - **Fonte** — [Slice Town](https://slice-town-wbs.framer.website/)
 - **Nichos indicados** — pizzarias, padarias e cardápios por porção
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -137,11 +157,11 @@ Sem foto por item. Nome curto, descrição de aproximadamente 8–15 palavras e 
 2. Grupos de itens, com categoria e nomes dos tamanhos antes das linhas.
 3. Em cada linha: nome e descrição, preços na mesma ordem do cabeçalho e separador.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Lista empilhada com linha de 393 px. Título e descrição em 243 px, preços em 140 px. Um registro mediu 76 px. A seção completa excede 812 px; o cabeçalho e as primeiras opções cabem. Fundo marrom, contraste ocre nos preços e divisores discretos.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Grupos de 585 px dentro de uma área maior. Linha útil de 561 px e coluna de preços de 140 px. A descrição e os preços continuam associados na horizontal. A captura de entrada mostra o grupo vegetariano à esquerda. CSS de página em 810 e 1200 px; limiar do agrupamento não isolado.
 
@@ -158,6 +178,10 @@ Grupos de 585 px dentro de uma área maior. Linha útil de 561 px e coluna de pr
 
 - Nunca ocultar o tamanho correspondente a um preço. Usar rótulos textuais para distinguir categorias além dos marcadores coloridos.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Lista de preços.** Alinhe tamanhos comparáveis; associe cada preço a um tamanho também na leitura assistiva.
+
 #### L3-SPEC-03 — Seleção de pratos com miniaturas circulares e preço em destaque
 
 - **Categoria destino** — `special-modules.md`
@@ -165,6 +189,8 @@ Grupos de 585 px dentro de uma área maior. Linha útil de 561 px e coluna de pr
 - **Nome do padrão** — Seleção de pratos com miniaturas circulares e preço em destaque
 - **Fonte** — [Foodee](https://foodee.framer.website/)
 - **Nichos indicados** — restaurantes vegetarianos, bistrôs e menus de degustação
+
+**Evidência histórica** — Lote 3. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -176,11 +202,11 @@ Fotos com leitura em máscara circular. Nome curto, preço e uma frase de até 1
 2. Grade de pratos.
 3. Em cada item: imagem e selo quando houver, nome, preço e descrição.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 401 px com margens de 24 px. Linhas de 122 px. Imagem quadrada no DOM com 171 px e área visual circular menor. Cabe o cabeçalho e a primeira linha dentro de 812 px contados desde o topo da seção. Fundo claro e preço vermelho.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Três colunas de cerca de 331 px em 1152 px úteis. A seção usa posição sticky no desktop e posição relativa na variante estreita. A altura desktop medida coincidiu com a viewport. CSS da página em 810 e 1200 px; limiar exato da troca não isolado.
 
@@ -197,6 +223,10 @@ Três colunas de cerca de 331 px em 1152 px úteis. A seção usa posição stic
 
 - Usar os selos em poucos itens. Evitar que texto longo desalinhe as linhas e desloque o preço para longe do nome.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Lista com miniaturas.** Miniaturas aceleram reconhecimento quando fotos têm enquadramento compatível; preços devem manter alinhamento.
+
 #### L4-SPEC-01 — Carta por taça ao lado de mesa privativa
 
 - **Categoria destino** — `special-modules.md`
@@ -204,6 +234,8 @@ Três colunas de cerca de 331 px em 1152 px úteis. A seção usa posição stic
 - **Nome do padrão** — Carta por taça ao lado de mesa privativa
 - **Fonte** — [Ruota](https://ruota-template.framer.website/)
 - **Nichos indicados** — cantinas, bares de vinho e restaurantes
+
+**Evidência histórica** — Lote 4. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -214,11 +246,11 @@ Três rótulos com estilo, origem e preço. Uma foto horizontal para a mesa e ce
 1. Painel de vinhos com identificador, título, descrição e lista de três linhas.
 2. Painel de mesa com foto, título, descrição e link de consulta.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Painéis empilhados de 409 px com margens de 20 px, raio de 32 px e alturas de 534 e 503 px. Foto de 369 × 220 px (1,68:1). Cada painel cabe isoladamente em 812 px. Carta sobre fundo vermelho com separadores claros.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Painéis de 630 e 598 px, cerca de 51/49 da largura combinada, com 752 px de altura e raio de 40 px. Foto da mesa de 518 × 340 px (1,52:1). A carta mantém preço à direita.
 
@@ -235,6 +267,10 @@ Painéis de 630 e 598 px, cerca de 51/49 da largura combinada, com 752 px de alt
 
 - Usar uma foto da mesa ou sala que pode ser reservada. Manter o preço alinhado mesmo quando o nome do vinho aumentar.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Lista e convite.** Preço e origem da bebida ficam em lista; a reserva de mesa deve parecer uma ação separada.
+
 #### L4-SPEC-02 — Linha do tempo de degustação com estimativa de mesa
 
 - **Categoria destino** — `special-modules.md`
@@ -242,6 +278,8 @@ Painéis de 630 e 598 px, cerca de 51/49 da largura combinada, com 752 px de alt
 - **Nome do padrão** — Linha do tempo de degustação com estimativa de mesa
 - **Fonte** — [Braise](https://braise-dining.framer.website/)
 - **Nichos indicados** — menus degustação, experiências guiadas e eventos gastronômicos
+
+**Evidência histórica** — Lote 4. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -254,11 +292,11 @@ Uma foto por etapa com recorte retrato, hora e nome do prato. Uma frase curta de
 3. Controle de etapa com setas e slider.
 4. Preço por pessoa, harmonização, quantidade, subtotal e link de reserva.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Uma coluna de 409 px com margens de 20 px. Foto de 409 × 512 px (0,80:1). Setas de 44 × 44 px. Imagem e bloco de texto somam cerca de 906 px antes dos controles, ultrapassando uma dobra local de 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Área de 1239 px com foto de 631 px, texto de 526 px e vão de cerca de 82 px. Foto medida em 631 × 730 px. Trilho horizontal abaixo das duas colunas, seguido pela faixa com preços e reserva. Fundo quase preto e destaque âmbar.
 
@@ -275,6 +313,10 @@ Uma coluna de 409 px com margens de 20 px. Foto de 409 × 512 px (0,80:1). Setas
 
 - Oferecer controle por setas e teclado além do arraste. Separar valor por pessoa de total para a mesa.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Linha do tempo.** Use quando as fases e a duração ajudam a planejar; mantenha estimativas explícitas.
+
 #### L4-SPEC-03 — Explorador de plantas com abas de tipologia
 
 - **Categoria destino** — `special-modules.md`
@@ -282,6 +324,8 @@ Uma coluna de 409 px com margens de 20 px. Foto de 409 × 512 px (0,80:1). Setas
 - **Nome do padrão** — Explorador de plantas com abas de tipologia
 - **Fonte** — [Skyline Residences](https://skyline-estate.framer.website/)
 - **Nichos indicados** — incorporadoras, imobiliárias e empreendimentos residenciais
+
+**Evidência histórica** — Lote 4. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -293,11 +337,11 @@ Planta legível por tipologia, foto interna e dados curtos de quartos, banheiros
 2. Abas com número, nome e resumo.
 3. Painel ativo com identificação, andares, planta, foto, medidas e ações de consulta.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Quatro abas em 2 × 2, caixas de aproximadamente 197 × 97 px. Painel empilhado de 409 px. Planta de 377 × 270 px (1,40:1) e foto de 409 × 230 px (1,78:1). A aba e a planta podem aparecer na mesma dobra local; o painel inteiro excede 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Quatro abas de 299 px em linha. Painel de 1268 px com planta de 768 × 550 px e foto de 396 × 260 px. Relação aproximada de 66/34 entre planta e coluna de dados, pelo tamanho medido das mídias. Fundo preto e planta em superfície clara.
 
@@ -314,6 +358,10 @@ Quatro abas de 299 px em linha. Painel de 1268 px com planta de 768 × 550 px e 
 
 - Exibir medidas como texto e manter a planta com contraste. Evitar que o estado ativo dependa apenas de cor.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Explorador por abas.** Cada tipologia precisa de planta e título inequívocos; controle por teclado e mantenha foco previsível.
+
 #### L5-SPEC-01 — Ficha de imóvel com fotografia dominante e dados de venda
 
 - **Categoria destino** — `special-modules.md`
@@ -321,6 +369,8 @@ Quatro abas de 299 px em linha. Painel de 1268 px com planta de 768 × 550 px e 
 - **Nome do padrão** — Ficha de imóvel com fotografia dominante e dados de venda
 - **Fonte** — [Caldren](https://caldren.framer.website/)
 - **Nichos indicados** — incorporadoras, imobiliárias e lançamentos
+
+**Evidência histórica** — Lote 5. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1363 = 1363 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -333,11 +383,11 @@ Uma foto principal e três complementares. Nome curto, introdução de uma frase
 3. No painel: condição, local, preço, especificações e CTAs.
 4. Galeria de apoio com legendas.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Coluna de 409 px, margem de 20 px. Foto principal de 409 × 300 px (1,36:1), painel de cerca de 499 px e fotos secundárias de 409 × 240 px (1,70:1). Foto mais painel já somam cerca de 799 px sem vãos ou cabeçalho. A ficha inteira ultrapassa 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Faixa de 1235 px. Foto de 803 × 620 px e painel cinza-claro de 408 × 620 px, cerca de 66/34 sem o vão de 24 px. Três fotos secundárias de 396 × 260 px em linha.
 
@@ -354,6 +404,10 @@ Faixa de 1235 px. Foto de 803 × 620 px e painel cinza-claro de 408 × 620 px, c
 
 - Separar condição comercial, preço e características físicas. Dar contexto diferente a cada imagem secundária.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Ficha de imóvel.** A foto convida e os dados qualificam; associe preço e metragem ao mesmo imóvel.
+
 #### L6-SPEC-01 — Seletor de procedimentos em três perguntas
 
 - **Categoria destino** — `special-modules.md`
@@ -361,6 +415,8 @@ Faixa de 1235 px. Foto de 803 × 620 px e painel cinza-claro de 408 × 620 px, c
 - **Nome do padrão** — Seletor de procedimentos em três perguntas
 - **Fonte** — [Cassian](https://tidy-marketing-173692.framer.app/)
 - **Nichos indicados** — clínicas e catálogos consultivos
+
+**Evidência histórica** — Lote 6. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -372,11 +428,11 @@ Dispensa foto. Pergunta curta por etapa e rótulos de até quatro palavras.
 2. Resumo editável das escolhas anteriores quando preenchido.
 3. Pergunta, botões e indicação de progresso.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Região útil de 409 × 428 px na primeira etapa. Duas trilhas de cerca de 148 e 229 px. Botões com 44 px de altura. A caixa de 572 px cabe em uma dobra local de 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Caixa de 1252 px e área interativa de 1124 px. Trilhas de aproximadamente 353 e 707 px, com 64 px entre elas. Pergunta e alternativas ficam na área maior.
 
@@ -393,6 +449,10 @@ Caixa de 1252 px e área interativa de 1124 px. Trilhas de aproximadamente 353 e
 
 - Usar as escolhas para orientar a navegação por conteúdo. Identificar com clareza a etapa e a forma de editar a resposta.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Seletor guiado.** Cada pergunta precisa mudar a seleção; explique o resultado e permita revisar escolhas.
+
 #### L6-SPEC-02 — Comparador de duas imagens com divisor operável
 
 - **Categoria destino** — `special-modules.md`
@@ -400,6 +460,8 @@ Caixa de 1252 px e área interativa de 1124 px. Trilhas de aproximadamente 353 e
 - **Nome do padrão** — Comparador de duas imagens com divisor operável
 - **Fonte** — [Cassian](https://tidy-marketing-173692.framer.app/)
 - **Nichos indicados** — clínicas, fotografia e projetos de restauração
+
+**Evidência histórica** — Lote 6. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -411,11 +473,11 @@ Duas imagens registradas com perspectiva e iluminação equivalentes. Rótulos c
 2. Bloco de resultados com título, caso, metadados e nota.
 3. Link para coleção completa.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Pilha com comparador de 409 × 438 px e texto de 409 × 451 px. As duas caixas já somam 889 px antes dos respiros. Controle de 44 × 44 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Comparador ao lado do texto em faixa de 1348 px. Bloco editorial de 482 px. As imagens internas mediram 674 × 843 px em uma amostra; a moldura visível recorta as camadas.
 
@@ -431,3 +493,7 @@ Comparador ao lado do texto em faixa de 1348 px. Bloco editorial de 482 px. As i
 ##### Regras Anti-Slop específicas daquela seção
 
 - Manter os rótulos visíveis e evitar mudança de escala entre as duas imagens. Oferecer teclado além do ponteiro.
+
+##### Direção de arte e aplicação
+
+[INFERIDO] **Comparador visual.** Exige o mesmo enquadramento e escala; forneça controle por teclado e acesso a ambas as imagens.

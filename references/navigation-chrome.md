@@ -8,6 +8,8 @@
 - **Fonte** — [FineDine Home](https://finedine-template.framer.website/)
 - **Nichos indicados** — restaurantes com filiais, hotéis e espaços de atendimento
 
+**Evidência histórica** — Lote 2. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
+
 ##### Requisitos de Mídia e Copy
 
 Um mapa por unidade, texto de rota e dados operacionais. Nome, endereço e horário visíveis mesmo com o painel fechado.
@@ -18,11 +20,11 @@ Um mapa por unidade, texto de rota e dados operacionais. Nome, endereço e horá
 2. Lista de unidades com botão contendo nome, endereço, horário e ícone.
 3. Painel com mapa, dados de transporte e acesso, telefone, email e ações de rota e reserva.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Lista de 409 px com margens de 20 px. Cabeçalho de aproximadamente 175 px. No painel aberto o mapa de 165 × 400 px ficou ao lado dos dados, que quebraram em várias linhas. Cabe um cabeçalho fechado em 812 px. O encaixe do painel aberto depende das quebras e do conteúdo.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Faixa de 1252 px. Cabeçalho de cerca de 109 px, com nome, endereço e horários em grupos horizontais. Mapa aberto de 586 × 400 px ao lado dos detalhes. Divisórias finas em fundo escuro. CSS inclui 810 e 1200 px, com limiar do componente sem isolamento.
 
@@ -39,6 +41,10 @@ Faixa de 1252 px. Cabeçalho de cerca de 109 px, com nome, endereço e horários
 
 - Dimensionar a área de texto para preservar telefone e email. Acompanhar o mapa com instruções textuais.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Diretório de unidades.** Abra mapa sob demanda quando houver escolha de filial; mantenha endereço legível antes de abrir.
+
 #### L4-NAV-01 — Endereço com horários e sinal de abertura
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -46,6 +52,8 @@ Faixa de 1252 px. Cabeçalho de cerca de 109 px, com nome, endereço e horários
 - **Nome do padrão** — Endereço com horários e sinal de abertura
 - **Fonte** — [Ruota](https://ruota-template.framer.website/)
 - **Nichos indicados** — restaurantes, cafés e lojas de bairro
+
+**Evidência histórica** — Lote 4. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -57,11 +65,11 @@ Endereço em destaque, uma linha por faixa de horário, telefone e email. Um est
 2. Colunas de horários e contato, com indicação breve de funcionamento.
 3. Indicador circular do dia e estado de abertura.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Detalhes de 409 px em coluna e círculo de 290 × 290 px abaixo. O bloco de detalhes mede 669 px e cabe isoladamente em 812 px; a composição inteira mede 1079 px. Superfície creme e dados em vermelho.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Detalhes de 824 px com horários e contato lado a lado. Círculo vermelho de 380 × 380 px à direita. Seção de 763 px. Endereço domina a primeira linha do bloco principal.
 
@@ -78,6 +86,10 @@ Detalhes de 824 px com horários e contato lado a lado. Círculo vermelho de 380
 
 - Manter o estado atual em texto. Dar contraste suficiente às linhas de horário e confirmar o fuso da unidade antes de implementar o cálculo.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Informação de visita.** Horário e status respondem perguntas diferentes; exiba o fuso e trate dias especiais na implementação.
+
 #### L6-NAV-01 — Diretório de opções por preocupação em grade alternada
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -85,6 +97,8 @@ Detalhes de 824 px com horários e contato lado a lado. Círculo vermelho de 380
 - **Nome do padrão** — Diretório de opções por preocupação em grade alternada
 - **Fonte** — [Elysévia](https://xn--elysvia-eya.framer.website/)
 - **Nichos indicados** — clínicas, consultorias e serviços especializados
+
+**Evidência histórica** — Lote 6. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -96,11 +110,11 @@ Dispensa foto. Seis temas curtos e uma frase de cerca de 10–16 palavras por it
 2. Introdução breve e acesso ao índice completo.
 3. Grade de links com número, tema, descrição e indicador.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Painel de 417 px, área de cartões de 381 px e uma coluna. Cada cartão mede cerca de 229 px de altura. Cabe o cabeçalho de 302 px e o primeiro cartão em 812 px; a grade completa exige rolagem.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Painel de 1216 px, cabeçalho de 1120 px dividido entre título e introdução. Grade 3 × 2, com cartões de 363 × 257 px, alternando claro e escuro.
 
@@ -117,6 +131,10 @@ Painel de 1216 px, cabeçalho de 1120 px dividido entre título e introdução. 
 
 - Nomear o problema na linguagem do cliente. Evitar converter cada cartão em promessa de resultado.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Diretório de serviços.** Rótulos devem corresponder às preocupações do público; preserve a ordem de leitura ao alternar blocos.
+
 #### L6-NAV-02 — Diretório de unidades filtrado por cidade
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -124,6 +142,8 @@ Painel de 1216 px, cabeçalho de 1120 px dividido entre título e introdução. 
 - **Nome do padrão** — Diretório de unidades filtrado por cidade
 - **Fonte** — [Chapter Barbershop](https://chapterbarbershop.framer.website/)
 - **Nichos indicados** — barbearias, franquias e redes de atendimento
+
+**Evidência histórica** — Lote 6. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -135,11 +155,11 @@ Uma foto por unidade, nome e bairro curtos, endereço e horários em linhas leg�
 2. Filtros de cidade incluindo todas.
 3. Cartões de unidade com foto, nome, bairro, endereço, horário e ação.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Faixa de 401 px e margem de 24 px. Filtros quebram em duas linhas, com área de 88 px. Cartões de 401 × 483 px com foto de 401 × 260 px (1,54:1). Um cartão cabe em 812 px.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Faixa de 1252 px. Filtros lado a lado com cerca de 39 px de altura. Duas colunas quando o conjunto completo está ativo. Cartão de 616 × 517 px e foto de 616 × 260 px (2,37:1).
 
@@ -156,6 +176,10 @@ Faixa de 1252 px. Filtros lado a lado com cerca de 39 px de altura. Duas colunas
 
 - Manter o estado ativo identificável e fornecer opção de listar todas. Cada ação precisa apontar para a unidade exibida.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Diretório filtrável.** Filtro vale quando reduz uma lista longa; preserve resultado vazio e opção de voltar a todas as cidades.
+
 #### L7-NAV-01 — Footer institucional com escritórios e assinatura monumental
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -163,6 +187,8 @@ Faixa de 1252 px. Filtros lado a lado com cerca de 39 px de altura. Duas colunas
 - **Nome do padrão** — Footer institucional com escritórios e assinatura monumental
 - **Fonte** — [Caldren](https://caldren.framer.website/)
 - **Nichos indicados** — imobiliárias, incorporadoras e grupos com vários escritórios
+
+**Evidência histórica** — Lote 7. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1363 = 1363 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -175,11 +201,11 @@ Monograma, assinatura larga, promessa curta de newsletter e três grupos de nave
 3. Assinatura tipográfica.
 4. Copyright e links sociais e legais.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Caixa externa de 662 px de altura e miolo de 409 px com margem de 20 px. Topo empilhado, email e ação permanecem lado a lado. A assinatura mede 397 × 56 px. A faixa final empilha copyright e links. O bloco cabe em 812 px pelas medidas do DOM; a captura do extremo inferior mostrou principalmente o fundo.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Área interna de 1235 px com marca e inscrição à esquerda e três grupos em 477 px à direita. Assinatura de 1232 × 173 px abaixo. Linha legal horizontal. Fundo com gradiente azul para bege.
 
@@ -196,6 +222,10 @@ Caixa externa de 662 px de altura e miolo de 409 px com margem de 20 px. Topo em
 
 - Preservar contraste nas duas extremidades do gradiente. Não usar assinatura gigante para substituir links, endereços ou copyright.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Footer institucional.** A assinatura pode marcar o fechamento sem competir com escritórios e contatos.
+
 #### L7-NAV-02 — Header corporativo com links centrais e menu móvel empilhado
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -203,6 +233,8 @@ Caixa externa de 662 px de altura e miolo de 409 px com margem de 20 px. Topo em
 - **Nome do padrão** — Header corporativo com links centrais e menu móvel empilhado
 - **Fonte** — [Koddam](https://koddam.framer.website/)
 - **Nichos indicados** — consultorias, serviços B2B e sites institucionais
+
+**Evidência histórica** — Lote 7. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -215,11 +247,11 @@ Marca legível em formato compacto, cinco links curtos na referência e um CTA d
 3. CTA de contato no desktop.
 4. Na variante estreita, marca e acionador seguidos pelo painel com links e CTA.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Barra branca de 60 px, miolo de 419 px com recuo de 15 px. Fechada mostra apenas marca e ícone. Aberta exibe links em coluna na ordem Home, About, Services, Resources, Pricing, depois Contact Us. A indicação verde da página ativa permanece. O painel branco cobre parte do hero.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Barra branca de 80 px, miolo de 1288 px e margem de 30 px. Marca à esquerda, cinco links no centro e CTA em cápsula preta à direita. Página ativa em cápsula verde-clara.
 
@@ -236,6 +268,10 @@ Barra branca de 80 px, miolo de 1288 px e margem de 30 px. Marca à esquerda, ci
 
 - Garantir alcance ao último link quando a altura for baixa. Nomear e expor o estado do acionador para leitores de tela.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Header horizontal.** Centro para poucas rotas e uma ação destacada; rótulos longos exigem antecipar a quebra.
+
 #### L7-NAV-03 — Header clínico mínimo com diálogo de catálogo
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -243,6 +279,8 @@ Barra branca de 80 px, miolo de 1288 px e margem de 30 px. Marca à esquerda, ci
 - **Nome do padrão** — Header clínico mínimo com diálogo de catálogo
 - **Fonte** — [Cassian](https://tidy-marketing-173692.framer.app/)
 - **Nichos indicados** — clínicas com catálogo de serviços e marcas editoriais
+
+**Evidência histórica** — Lote 7. Desktop 1363 × 936 px CSS; estreito 454 × 312 px CSS por zoom (449 px úteis). Comparação histórica de overflow: Desktop 1348 = 1348 · Mobile 449 = 449. As descrições abaixo vêm desse registro. Encaixe a 812 px, quando mencionado, é [INFERIDO]. 375 × 812 px, toque e breakpoint exato são [NÃO OBSERVADO] salvo evidência explícita.
 
 ##### Requisitos de Mídia e Copy
 
@@ -256,11 +294,11 @@ Marca textual, destinos curtos e CTA de uma palavra ou expressão curta. Categor
 4. Na variante estreita, acionador.
 5. Diálogo com categorias e itens, acesso ao seletor, links de páginas, CTA final e endereço.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
 Barra transparente fixa, caixa de 104 px e linha útil de 72 px. Marca à esquerda, CTA claro e controle de 41 × 32 px à direita. Aberto, o diálogo escuro rolável precede os links institucionais com grupos Face, Breast, Body e Non-surgical, depois acesso ao seletor, páginas, CTA e endereço.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+##### Comportamento em desktop
 
 Barra fixa de 76 px com marca e CTA nos extremos e seis links centrais. Sobre o hero a superfície é escura/transparente. Em outra posição foi observado fundo claro e CTA azul, com contraste reduzido no texto central.
 
@@ -277,6 +315,10 @@ Barra fixa de 76 px com marca e CTA nos extremos e seis links centrais. Sobre o 
 
 - Aplicar foco visível e contraste em todas as superfícies. Reservar a lista agrupada de procedimentos a catálogos que precisem desse nível de navegação.
 
+##### Direção de arte e aplicação
+
+[INFERIDO] **Header com diálogo.** Útil quando o catálogo exige agrupamento; trate foco inicial, Escape e retorno ao botão.
+
 #### L7-NAV-04 — Footer de restaurante com newsletter e dois grupos de links
 
 - **Categoria destino** — `navigation-chrome.md`
@@ -287,29 +329,43 @@ Barra fixa de 76 px com marca e CTA nos extremos e seis links centrais. Sobre o 
 
 ##### Requisitos de Mídia e Copy
 
-Título, explicação, email e ação de inscrição;Grupo de links de serviço e grupo de redes e mapa;Separador, assinatura da marca e copyright com endereço
+Título curto, uma frase sobre conteúdo e frequência, campo de e-mail, ação de inscrição, dois grupos de destinos e uma linha de assinatura. A marca pode ser tipográfica. A composição dispensa fotografia.
 
 ##### Ordem obrigatória do DOM
 
-1. Painel vermelho de 429 × 649 px, recuo de 10 px, cantos superiores de 30 px e miolo de 389 px. Campo e botão de 58 px empilhados. Links em duas colunas, marca e copyright em coluna. Rodapé de 729 px, dentro de 812 px..
+1. `footer` com painel, miolo e bloco superior.
+2. Newsletter com título e introdução, seguida de formulário com e-mail e botão de envio.
+3. Área dos links. A ordem de origem alterna menu, Instagram, reserva, TikTok, eventos privados e mapa. Visualmente, são duas colunas, com ações do restaurante à esquerda.
+4. Bloco inferior com divisor, assinatura e copyright com endereço.
 
-##### Comportamento Mobile-First observado (375px)
+##### Comportamento em largura estreita
 
-Painel de 1300 × 507 px com miolo de 1204 px. Newsletter de 720 px à esquerda e dois grupos em 420 px à direita. Formulário em linha e assinatura abaixo de um divisor, com copyright do lado oposto.
+[MEDIDO] No viewport de 454 × 312 px CSS por zoom, a raiz mediu 449 px úteis sem overflow (449 = 449). O painel mede 429 × 649 px, com 10 px de recuo lateral, 30 px de raio nos cantos superiores e miolo de 389 px. O formulário empilha os controles em 128 px de altura. [OBSERVADO] A newsletter fica acima de duas colunas de links e a assinatura fica acima do copyright.
 
-##### Expansão Desktop observada (1024px+ / 1440px)
+[MEDIDO] A 545 × 374 px CSS, com 539 px úteis, o painel mede 519 × 649 px e o miolo 479 px. A estrutura superior permanece em coluna. [NÃO OBSERVADO] 375 × 812 px, limiar exato e troca de layout por altura.
 
-Newsletter precede atalhos e o divisor separa a assinatura final. Preservar acesso às ações de reserva e localização.
+##### Comportamento em desktop
+
+[MEDIDO] A 1363 × 936 px CSS, com 1348 px úteis, o painel mede 1300 × 507 px, com raio superior de 40 px. O miolo de 1204 px distribui 720 px para a newsletter e 420 px para links, separados por 64 px. Formulário em linha de 620 × 58 px. [OBSERVADO] Na base, a marca e o copyright ocupam extremidades opostas do divisor.
 
 ##### Invariantes vs. Adaptáveis
 
-- **Invariantes** — Paleta, tipografia, cantos, destinos e frequência do email.
-- **Adaptáveis** — Campo e botão de inscrição presentes. Envio e confirmação [NÃO OBSERVADO].
+- **Invariantes** — Publicação primeiro, destinos em grupos distintos e assinatura abaixo de um separador.
+- **Adaptáveis** — Paleta, famílias tipográficas, número de redes e frequência real da newsletter.
 
 ##### Animações & Interações observadas
 
-- Explicar o que será enviado. Evitar duplicar o mapa ou esconder a ação de reserva entre redes sociais.
+- [OBSERVADO] Campo de texto e botão de inscrição presentes. Os destinos de redes e mapa do modelo apontam a páginas genéricas.
+- [NÃO OBSERVADO] Envio, confirmação, validação, hover e transições específicas.
 
 ##### Regras Anti-Slop específicas daquela seção
 
-- undefined
+- Dê título e frequência verificáveis à newsletter e configure destinos reais para redes, mapa e reservas.
+- Use rótulo persistente no campo e status acessível para erro e sucesso. Em telas pequenas, mantenha os controles em fluxo e deixe as colunas dos links quebrarem quando os rótulos ocuparem o espaço disponível.
+- Garanta contraste do texto sobre a superfície saturada. Use uma única família de destaque para título e assinatura se a marca permitir.
+
+##### Direção de arte e aplicação
+
+[OBSERVADO] Um painel vermelho (#D8381E) sobre fundo creme inverte as cores da página. O título serifado domina o primeiro olhar, enquanto os links em corpo menor e o divisor demarcam a parte utilitária.
+
+[INFERIDO] A diferença de escala separa convite e navegação sem criar dois cartões concorrentes. O alto contraste e a ordem visual são transferíveis para outras paletas. Prefira um rodapé de contato quando não houver newsletter ativa ou links suficientes para dois grupos.
